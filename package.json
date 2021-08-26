@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/SDC-Schist/E-Commerce-Products-API#readme",
   "dependencies": {
+    "artillery-pro": "^2.3.0-2",
     "axios": "^0.21.1",
     "csvtojson": "^2.0.10",
     "etl": "^0.6.12",
@@ -25,7 +26,12 @@
     "fast-csv": "^4.3.6",
     "fs": "0.0.1-security",
     "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
     "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5",
     "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "artillery": "^1.7.7"
   }
 }
